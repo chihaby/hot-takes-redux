@@ -41,4 +41,4 @@ ReactDOM.render(
 
 messaging.onMessage((payload) => {
   console.log(payload);
-})
+});
