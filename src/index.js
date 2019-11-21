@@ -8,7 +8,7 @@ import initialState from './initial-state';
 import Application from './containers/ApplicationContainer';
 import './index.css';
 
-import { messaging } from '../firebase';
+import { messaging } from './firebase';
 
 import { startListeningToAuthChanges } from './actions/auth';
 import { startListeningForUsers } from './actions/users';
